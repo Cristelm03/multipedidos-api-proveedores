@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+//Escucha en el puerto 8081
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api")
